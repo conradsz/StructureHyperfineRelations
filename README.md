@@ -12,7 +12,6 @@ The included scripts handle data extraction, data processing, and execution of a
 
 Requirements
 ----
-* MATLAB (minimum v9.11)
 * Statistics and Machine Learning Toolbox
 * Deep Learning Toolbox
 
