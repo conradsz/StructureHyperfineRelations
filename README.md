@@ -10,6 +10,12 @@ in ORCA via the EPRNMR computation flag, are needed as input.
 
 The included scripts handle data extraction, data processing, and execution of a suitable machine learning algorithm (Neighborhood Components Analysis).
 
+Requirements
+----
+* MATLAB (minimum v9.11)
+* Statistics and Machine Learning Toolbox
+* Deep Learning Toolbox
+
 Contents
 ----
 The collection is subdivided into two main folders:  <br>
