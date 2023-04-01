@@ -12,8 +12,9 @@ The included scripts handle data extraction, data processing, and execution of a
 
 Requirements
 ----
-* Statistics and Machine Learning Toolbox
-* Deep Learning Toolbox
+* Matlab (v2021b used herein)
+* Matlab Statistics and Machine Learning Toolbox
+* Matlab Deep Learning Toolbox
 
 Contents
 ----
@@ -25,8 +26,9 @@ Counting starts with 0 for the starting structure. Subsequently, the read_ORCA_o
 Subsequently, the data preparation script can be used to create features (bonds, angles, dihedrals) and responses (hyperfine coupling constants) for the machine learning algorithm.
 Importance matrices as displayed in the publication can be created by using the Neighborhoof Components Analysis afterwards. 
 In addition, symmetry-based analyses of MD simulation parameters can be reproduced. <br><br>
-More explanations can be found in the respective folders.
+More explanations can be found in the Matlab scripts located in the respective folders.
 
 Reuse and modification
 ----
 Reuse, modification, and distribution is possible (and encouraged) under the MIT license. 
+Whenever used for further dissemination or publication, citation of the open-access publication and the dataset is mandatory.

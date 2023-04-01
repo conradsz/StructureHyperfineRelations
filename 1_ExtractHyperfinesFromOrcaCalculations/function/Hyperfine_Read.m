@@ -2,8 +2,14 @@ function [] = Hyperfine_Read(DIR)
 % 
 % Copyright (c) 2023 Conrad Szczuka
 %
-% This script automatically creates an csv file with all hfc values
-% they are ordered as atom-x-y-z-iso
+% This function automatically extracts hyperfine
+% coupling constants from ORCA output files in separate folders. The DIR
+% input denotes the parent folder. Subfolders are named by a number
+% corresponding to the molecular dynamics step number. The geometry
+% optimized structure is therefore in folder '0'. The function will create
+% csv files within the parent folder and print the coupling constants into
+% the Command Window.
+%
 cd(DIR)
 
 d = dir; 
