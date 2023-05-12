@@ -2,7 +2,7 @@
 
 This Matlab script collection is an open-access package to identify correlations between
 structure parameters of organic radicals and hyperfine coupling constants of all involved magnetic nuclei.
-It accompanies the [open-access publication in XXX](https://doi.org/).
+It accompanies the [open-access publication in RSC Advances, 2023, 13, 14565 - 14574](https://doi.org/10.1039/D3RA02476H).
 
 This package is based on molecular dynamics trajectories computed with the MD-module of the quantum chemistry software package
 ORCA (v4/5). In addition to the trajectory, hyperfine coupling constant calculations of trajectory snapshots, performed
