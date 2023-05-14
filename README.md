@@ -21,10 +21,10 @@ Contents
 The collection is subdivided into two main folders:  <br>
 * In folder 1, hyperfine calculation output files (.out) from ORCA are deposited in a descriptive folder, e.g., CH3 for the methyl radical.
 The output files need to be placed in subfolders named by the respective step number of the corresponding snapshot along the molecular dynamics trajectory. 
-Counting starts with 0 for the starting structure. Subsequently, the read_ORCA_output_files script can be used to automatically extract all hyperfine coupling constants included in the ouput file. CSV files denoted *(HFC_StepNumber.csv)* are created in the same folder. <br>
+Counting starts with 0 for the starting structure. Subsequently, the *(read_ORCA_output_files.m)* script can be used to automatically extract all hyperfine coupling constants included in the ouput file. CSV files denoted *(HFC_StepNumber.csv)* are created in the same folder. <br>
 * In folder 2, a subfolder in data/ with the identical name as chosen in step (1) needs to be created. Therein, the trajectory.xyz file from the ORCA MD module is deposited.
-Subsequently, the data preparation script can be used to create features (bonds, angles, dihedrals) and responses (hyperfine coupling constants) for the machine learning algorithm.
-Importance matrices as displayed in the publication can be created by using the Neighborhoof Components Analysis afterwards. 
+Subsequently, the data preparation script *(A_DataPreparation.m)* can be used to create features (bonds, angles, dihedrals) and responses (hyperfine coupling constants) for the machine learning algorithm.
+Importance matrices as displayed in the publication can be created by using the Neighborhoof Components Analysis *(B_NeighborhoodComponentsAnalysis.m)* afterwards. 
 In addition, symmetry-based analyses of MD simulation parameters can be reproduced. <br><br>
 More explanations can be found in the Matlab scripts located in the respective folders.
 
