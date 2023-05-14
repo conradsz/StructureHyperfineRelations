@@ -13,8 +13,8 @@ The included scripts handle data extraction, data processing, and execution of a
 Requirements
 ----
 * Matlab (v2021b used herein)
-* Matlab Statistics and Machine Learning Toolbox
-* Matlab Deep Learning Toolbox
+* Matlab Statistics and Machine Learning Toolbox (v12.2 used herein)
+* Matlab Deep Learning Toolbox (v14.3 used herein)
 
 Contents
 ----
